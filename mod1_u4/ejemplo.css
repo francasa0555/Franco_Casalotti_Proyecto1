@@ -1,0 +1,42 @@
+/* esto se le llama reglas. aca tengo 5 reglas */
+
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    text-transform: uppercase; /* para poner todas las letras en mayuscula */ 
+}
+
+p{
+    color: orange;
+    font-size: 20px; /* tamaño letras */
+}
+
+.destacados{ /* cada clase se identifa con el punto y el nombre de la clase */
+    color: green; 
+    font-weight: bold; /* poner letra en negrita */
+    font-style: italic; /* tipo de letra */
+}
+
+#rojo{
+    width: 200px;
+    height: 400px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 20px;   /* el border y el padding le suman al ancho de la caja */
+    box-sizing: border-box; 
+    /* siempre cuando uso border y padding utilizo la propiedad box-sizing. tamaño de la caja es a partir del borde. es para que no se me desarme
+     y quede igual a la de abajo. en este caso la de ID azul */
+} 
+
+#azul{
+    width: 200px;
+    height: 300px;
+    background-color: antiquewhite;
+    margin-left: 120px; /* muevo un poco los elementos*/
+}
